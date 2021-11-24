@@ -1,0 +1,15 @@
+<%= render "partials/nav" %>
+
+<h1><%=@article.title%></h1>
+
+    <div> 
+        <%= @article.content %>
+    </div>
+    end
+
+    <div>
+        <%=link_to "eliminar el articulo", @article, method: delete %>
+    </div>
+    end 
+end
+
